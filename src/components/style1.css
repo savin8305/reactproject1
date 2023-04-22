@@ -1,0 +1,50 @@
+.htmlScreen1 iframe
+{
+    margin-top: 60rem;
+    width: 1590px;
+     height: 1450px;
+    border-radius: 20px;
+    background: #c8c1c1;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='32' ry='32' stroke='%23EC3463' stroke-width='7' stroke-dasharray='24%2c 14' stroke-dashoffset='58' stroke-linecap='round'/%3e%3c/svg%3e");
+    border-radius: 32px;
+}
+.htmlScreen2 iframe
+{
+    margin-top: 60rem;
+    width: 2590px;
+     height: 1450px;
+    border-radius: 20px;
+    background: #c8c1c1;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='32' ry='32' stroke='%23EC3463' stroke-width='7' stroke-dasharray='24%2c 14' stroke-dashoffset='58' stroke-linecap='round'/%3e%3c/svg%3e");
+    border-radius: 32px;
+}
+
+.canva1{
+    contain: content;   
+}
+.active-icon {
+  box-shadow: 0px 0px 20px #fff;
+}
+
+
+.akash{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .akash {
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px; /* Add space between flex items */
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .akash {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; /* Optional: center items horizontally */
+      gap: 10px; /* Add space between flex items */
+    }
+  }
+  
